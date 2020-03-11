@@ -1,0 +1,16 @@
+<nb-card>
+  <nb-card-body>
+    <div class="toolbar-wrapper">
+      <input type="text"
+             [formControl]="location"
+             placeholder="Enter Location"
+             nbInput>
+      <button nbButton
+              (click)="handleEmitWeatherForecast()"
+              [disabled]="location.invalid"
+              class="forecast-button">
+        <ng-content></ng-content>
+      </button>
+    </div>
+  </nb-card-body>
+</nb-card>

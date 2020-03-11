@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  weather-stream-service:
+    build: ./weather-stream-web
+    ports:
+      - 3000:3000
+
+  website:
+    build: ./weather-forecast-client
+    ports:
+      - 80:80
+    depends_on:
+      - weather-stream-service

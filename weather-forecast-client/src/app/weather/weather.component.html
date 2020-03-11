@@ -1,0 +1,7 @@
+<app-weather-toolbar
+  (handleWeatherForecastChange)="startStreamWeatherForecast($event)">
+  {{buttonContent}}
+</app-weather-toolbar>
+<app-weather-chart-widget [isLoading]="loadingStatus"
+                          [weatherData]="streamWeatherData">
+</app-weather-chart-widget>

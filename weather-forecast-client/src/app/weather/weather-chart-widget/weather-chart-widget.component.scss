@@ -1,0 +1,46 @@
+.weather-widget-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .line-chart {
+    display: flex;
+    justify-content: center;
+  }
+
+  & div {
+    max-width: 100%;
+    width: 100%;
+
+    & .forecast-info-card {
+      height: calc(100% - 1.875rem)
+    }
+  }
+}
+
+svg {
+  overflow: visible;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis-title {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+.chart-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
