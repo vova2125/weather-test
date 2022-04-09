@@ -24,7 +24,7 @@
     "@nebular/theme": "^4.6.0",
     "d3": "^5.15.0",
     "flag-icon-css": "^3.4.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ngx-flag-icon-css": "^1.0.1",
     "ngx-socket-io": "^3.0.1",
     "rxjs": "~6.4.0",
