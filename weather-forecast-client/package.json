@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.9",
     "@nebular/eva-icons": "^4.6.0",
     "@nebular/theme": "^4.6.0",
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "flag-icon-css": "^3.4.6",
     "moment": "^2.24.0",
     "ngx-flag-icon-css": "^1.0.1",
